@@ -1,5 +1,4 @@
 	$(function(){
-
 	console.log('working');
 	});	
 
@@ -23,7 +22,7 @@
 					};
 						car.src="Car_one.png";
 
-				var car2 = new Image();		// Black Car
+				var car2 = new Image();		// Grey Car
 					car.onload = function(){
 						context.drawImage(car2,X,Y);
 					};
@@ -31,10 +30,10 @@
 			
 		function draw(){
 			var	context = myCanvas.getContext("2d");
-				context.clearRect(0, 0, 800, 800);
-				context.drawImage(Track,0,0);
-				context.drawImage(car,xPos,yPos);
-				context.drawImage(car2,X,Y);
+					context.clearRect(0, 0, 800, 800);
+						context.drawImage(Track,0,0);
+							context.drawImage(car,xPos,yPos);
+								context.drawImage(car2,X,Y);
 			}
 
 				function move(e){
