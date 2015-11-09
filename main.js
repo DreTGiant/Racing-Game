@@ -70,6 +70,7 @@
 				$('#reset_btn').on('click',function(e){
 					xPos = 0;
 					X = 0;
+					draw();
 				});
 				 
 								

@@ -6,3 +6,13 @@ h1{
 	display: block;
 	margin: 0 auto;
 }
+table,tr,td{
+	margin: 0 auto;
+	border: 1px solid black;
+
+}
+#reset_btn{
+}
+body{
+	background-color: #D3D3D3;
+}
